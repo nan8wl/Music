@@ -17,7 +17,7 @@ let currentSong = 0;
 // Music
 const songs = [
   {
-    name: 'jacinto-1',
+    name: 'buddy1',
     displayName: 'Electric Chill Machine',
     artist: 'Jacinto Design',
   },
