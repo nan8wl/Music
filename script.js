@@ -43,7 +43,7 @@ const songs = [
   },
   {
     name: 'forest-3',
-    displayName: 'Sound og Silence',
+    displayName: 'Sound of Silence',
     artist: 'matrix',
   },
   {
