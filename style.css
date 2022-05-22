@@ -1,17 +1,36 @@
-/* Images created by: https://unsplash.com/@pawel_czerwinski */
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap');
+/@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&family=Montserrat:wght@500&family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap");
 
+/* Global styles */
 :root {
-  --bggm: #c9ced3;
-  --bgwgradient: 
-  background: #d3cce3; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #d3cce3, #e9e4f0); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #d3cce3, #e9e4f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --game-color-primary: #FF0099;
+  --game-color-secondary: #00ffbf;
+  --game-color-accent: #ff0000;
+  --game-color-body-font: #f4f4f4;
+  --game-color-dark: #1c2333;
+  --game-color-dgray: #3e3f45;
+  --game-color-lgray: #85868a;
+  --game-color-light: #e1e0d9;
+  --game-font-brand: "Righteous", cursive;
+  --font-primary: "Space Mono", monospace;
+  --game-font-accent: "Inconsolata", monospace;
+  --game-font-secondary: "Montserrat Alternates", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
+  font-family: var(--font-primary);
+  font-size: 12px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: var(--game-color-secondary);
+  background-color: var(--game-color-dark);
 }
+
 
 body {
   margin: 0;
