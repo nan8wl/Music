@@ -17,49 +17,49 @@ let currentSong = 0;
 // Music
 const songs = [
   {
-    name: 'buddy-1',
-    displayName: 'buddy',
+    name: 'time',
+    displayName: 'Time',
     artist: 'matrix',
   },
     {
-    name: 'cyberpunk-1',
-    displayName: 'cyberpunk-1',
+    name: 'cyberpunk',
+    displayName: 'CyberLife',
     artist: 'matrix',
   },
   {
-    name: 'cyberpunk-2',
-    displayName: 'cyberpunk-2',
+    name: 'meta',
+    displayName: 'Metaverse',
     artist: 'matrix',
   },
   {
     name: 'forest-1',
-    displayName: 'buddy',
-    artist: 'mztrix',
+    displayName: 'Forest',
+    artist: 'matrix',
   },
   {
     name: 'forest-2',
-    displayName: 'buddy',
-    artist: 'mztrix',
+    displayName: 'Waves of Lucky',
+    artist: 'matrix',
   },
   {
     name: 'forest-3',
-    displayName: 'buddy',
-    artist: 'mztrix',
+    displayName: 'Sound og Silence',
+    artist: 'matrix',
   },
   {
     name: 'mafia',
-    displayName: 'buddy',
-    artist: 'mztrix',
+    displayName: 'Voyager',
+    artist: 'matrix',
   },
   {
     name: 'night-town',
     displayName: 'buddy',
-    artist: 'mztrix',
+    artist: 'matrix',
   },
   {
     name: 'summer',
     displayName: 'buddy',
-    artist: 'mztrix',
+    artist: 'matrix',
   },
 ];
 
