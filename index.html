@@ -5,46 +5,51 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Mazal Music Player</title>
-  <meta name="keywords"
-        content="Music player, ui, ux, JavaScript">
-    <meta property="og:title" content="Mazal Music Player">
-    <meta property="og:description" content="Music player interface where a user can play, pause, skip, rewind, and scrub through a song">
-    <link rel="icon" type="image/png" href="favicon.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
-    />
+  <meta name="keywords" content="Music player, ui, ux, JavaScript">
+  <meta property="og:title" content="Mazal Music Player">
+  <meta property="og:description"
+    content="Music player interface where a user can play, pause, skip, rewind, and scrub through a song">
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
- <div class="player-container">
-    <!-- Song -->
-    <div class="img-container">
-      <img src="img/mafia.jpg" alt="Album Art"/>
-    </div>
-    <h2 id="title"></h2>
-    <h3 id="artist"></h3>
-    <audio src="music/mafia.mp3"></audio>
-    <!-- Progress Bar -->
-    <div class="progress-container" id="progress-container">
-      <div class="progress" id="progress"></div>
-      <div class="duration-wrapper">
-        <span id="current-time">0:00</span>
-        <span id="duration">2:06</span>
+  <main>
+    <div class="player-container">
+      <!-- Song -->
+      <div class="img-container">
+        <img src="img/mafia.jpg" alt="Album Art" />
       </div>
+      <h2 id="title"></h2>
+      <h3 id="artist"></h3>
+      <audio src="music/mafia.mp3"></audio>
+      <!-- Progress Bar -->
+      <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="duration-wrapper">
+          <span id="current-time">0:00</span>
+          <span id="duration">2:06</span>
+        </div>
+      </div>
+      <!-- Controls -->
+      <div class="player-controls">
+        <i class="fas fa-backward" id="prev" title="Previous"></i>
+        <i class="fas fa-play main-button" id="play" title="Play"></i>
+        <i class="fas fa-forward" id="next" title="Next"></i>
+      </div>
+
+
     </div>
-    <!-- Controls -->
-    <div class="player-controls">
-      <i class="fas fa-backward" id="prev" title="Previous"></i>
-      <i class="fas fa-play main-button" id="play" title="Play"></i>
-      <i class="fas fa-forward" id="next" title="Next"></i>
-    </div> 
-    
-    <div>Photo by <a href="https://unsplash.com/@lazycreekimages?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael Dziedzic</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  </main>
+  <div class="footer">
+    <p>Photo by <a
+        href="https://unsplash.com/@lazycreekimages?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael
+        Dziedzic</a> on <a
+        href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </p>
   </div>
-  </div>
- 
+
   <script src="script.js"></script>
 </body>
 
