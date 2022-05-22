@@ -21,12 +21,7 @@ const songs = [
     displayName: 'buddy',
     artist: 'matrix',
   },
-  {
-    name: 'buddy-2',
-    displayName: 'buddy',
-    artist: 'mztrix',
-  },
-  {
+    {
     name: 'cyberpunk-1',
     displayName: 'cyberpunk-1',
     artist: 'matrix',
@@ -35,6 +30,36 @@ const songs = [
     name: 'cyberpunk-2',
     displayName: 'cyberpunk-2',
     artist: 'matrix',
+  },
+  {
+    name: 'forest-1',
+    displayName: 'buddy',
+    artist: 'mztrix',
+  },
+  {
+    name: 'forest-2',
+    displayName: 'buddy',
+    artist: 'mztrix',
+  },
+  {
+    name: 'forest-3',
+    displayName: 'buddy',
+    artist: 'mztrix',
+  },
+  {
+    name: 'mafia',
+    displayName: 'buddy',
+    artist: 'mztrix',
+  },
+  {
+    name: 'night-town',
+    displayName: 'buddy',
+    artist: 'mztrix',
+  },
+  {
+    name: 'summer',
+    displayName: 'buddy',
+    artist: 'mztrix',
   },
 ];
 
