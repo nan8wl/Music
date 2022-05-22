@@ -17,24 +17,24 @@ let currentSong = 0;
 // Music
 const songs = [
   {
-    name: 'buddy1',
-    displayName: 'Electric Chill Machine',
-    artist: 'Jacinto Design',
+    name: 'buddy-1',
+    displayName: 'buddy',
+    artist: 'matrix',
   },
   {
-    name: 'jacinto-2',
-    displayName: 'Seven nation Army (Remix)',
-    artist: 'Jacinto Design',
+    name: 'buddy-2',
+    displayName: 'buddy',
+    artist: 'mztrix',
   },
   {
-    name: 'jacinto-3',
-    displayName: 'Goodnight, Disco Queen',
-    artist: 'Jacinto Design',
+    name: 'cyberpunk-1',
+    displayName: 'cyberpunk-1',
+    artist: 'matrix',
   },
   {
-    name: 'metric-1',
-    displayName: 'Front Row (Remix)',
-    artist: 'Metric/Jacinto Design',
+    name: 'cyberpunk-2',
+    displayName: 'cyberpunk-2',
+    artist: 'matrix',
   },
 ];
 
