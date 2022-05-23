@@ -120,7 +120,6 @@ h3 {
   font-size: 20px;
   color: #a9a9a9;
  
-  
   cursor: pointer;
   user-select: none;
 }
@@ -132,8 +131,7 @@ h3 {
 .main-button {
   margin: auto;
   font-size: 30px;
-  position: relative;
-  top: 3px; 
+  
 }
   
 
@@ -141,6 +139,8 @@ h3 {
   margin-top: 40px;
  width: 100%;
  display: flex;
+ flex-direction: column;
+ align-items: center;
  justify-content: center;
   color: var(--game-color-lgray); 
 }
@@ -148,7 +148,12 @@ a {
   text-decoration: none;
   color: var(--game-color-lgray);
 }
-
+h5 {
+  font-size: 1em;
+}
+h5:hover {
+  color: var(--game-color-secondary);
+}
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 376px) {
   .player-container {
