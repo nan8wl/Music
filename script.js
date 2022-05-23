@@ -17,50 +17,41 @@ let currentSong = 0;
 // Music
 const songs = [
   {
-    name: 'time',
+    name: 'music-1',
     displayName: 'Time',
     artist: 'matrix',
   },
     {
-    name: 'cyberpunk',
+    name: 'music-2',
     displayName: 'CyberLife',
     artist: 'matrix',
   },
   {
-    name: 'meta',
+    name: 'music-3',
     displayName: 'Metaverse',
     artist: 'matrix',
   },
   {
-    name: 'forest-1',
+    name: 'music-4',
     displayName: 'Forest',
     artist: 'matrix',
   },
   {
-    name: 'forest-2',
+    name: 'music-5',
     displayName: 'Waves of Lucky',
     artist: 'matrix',
   },
   {
-    name: 'forest-3',
+    name: 'music-6',
     displayName: 'Sound of Silence',
     artist: 'matrix',
   },
   {
-    name: 'mafia',
+    name: 'music-7',
     displayName: 'Voyager',
     artist: 'matrix',
   },
-  {
-    name: 'night-town',
-    displayName: 'buddy',
-    artist: 'matrix',
-  },
-  {
-    name: 'summer',
-    displayName: 'buddy',
-    artist: 'matrix',
-  },
+ 
 ];
 
 // Check if song is playing
