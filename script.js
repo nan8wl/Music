@@ -18,32 +18,32 @@ let currentSong = 0;
 const songs = [
   {
     name: 'music-1',
-    displayName: 'Time',
+    displayName: 'DigitalTime',
     artist: 'matrix',
   },
     {
     name: 'music-2',
-    displayName: 'CyberLife',
-    artist: 'matrix',
-  },
-  {
-    name: 'music-3',
-    displayName: 'Metaverse',
-    artist: 'matrix',
-  },
-  {
-    name: 'music-4',
-    displayName: 'Forest',
-    artist: 'matrix',
-  },
-  {
-    name: 'music-5',
     displayName: 'Waves of Lucky',
     artist: 'matrix',
   },
   {
+    name: 'music-3',
+    displayName: 'CyberWars',
+    artist: 'matrix',
+  },
+  {
+    name: 'music-4',
+    displayName: 'My Warrior',
+    artist: 'matrix',
+  },
+  {
+    name: 'music-5',
+    displayName: 'Stairs',
+    artist: 'matrix',
+  },
+  {
     name: 'music-6',
-    displayName: 'Sound of Silence',
+    displayName: 'Digital Valley',
     artist: 'matrix',
   },
   {
