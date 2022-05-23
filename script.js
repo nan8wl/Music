@@ -160,3 +160,35 @@ music.addEventListener('ended', nextSong);
 
 // Click on progress bar to search through the song
 progressContainer.addEventListener('click', setProgressBar);
+
+
+/* Powerful Trap Beat | Strong by Alex-Productions | https://www.youtube.com/channel/UCx0_M61F81Nfb-BRXE-SeVA
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+Cyberpunk Computer Game | IDRA by Alex-Productions | https://www.youtube.com/channel/UCx0_M61F81Nfb-BRXE-SeVA
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+Extreme Sport Dubstep | I’m Back by Alex-Productions | https://www.youtube.com/channel/UCx0_M61F81Nfb-BRXE-SeVA
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+ Brazilian Street Fight by Punch Deck | https://soundcloud.com/punch-deck
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons Attribution 3.0 Unported License
+https://creativecommons.org/licenses/by/3.0/deed.en_US 
+ Hostiles Inbound by Miguel Johnson | https://soundcloud.com/migueljohnsonmjmusic
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+ The Soul-Crushing Monotony Of Isolation (Instrumental Mix) by Punch Deck | https://soundcloud.com/punch-deck
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons Attribution 3.0 Unported License
+https://creativecommons.org/licenses/by/3.0/deed.en_US 
+Dark Trap | DARKNESS by Alex-Productions | https://www.youtube.com/channel/UCx0_M61F81Nfb-BRXE-SeVA
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+ 
+ */
