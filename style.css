@@ -108,52 +108,54 @@ h3 {
 
 /* Controls */
 .player-controls {
- margin: auto;
- padding: 20px;
- display: flex;
- width: 151px;
- justify-content: space-evenly;
- align-items: center;
+  display: flex;
+  width: 100%;
+   align-items: center;
+   justify-content: space-evenly;
 }
 
 .fas {
+  justify-content: center;
+  align-items: center;
+  display: flex;
   font-size: 20px;
   color: #a9a9a9;
- 
   cursor: pointer;
-  user-select: none;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .fas:hover {
   color: var(--game-color-secondary);
 }
 
-.main-button {
-  margin: auto;
-  font-size: 25px;
-  
-}
-  
+
 
 .footer {
   margin-top: 40px;
- width: 100%;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
-  color: var(--game-color-lgray); 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--game-color-lgray);
 }
+
 a {
   text-decoration: none;
   color: var(--game-color-lgray);
 }
+
 h5 {
   font-size: 1em;
 }
+
 h5:hover {
   color: var(--game-color-secondary);
 }
+
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 376px) {
   .player-container {
@@ -172,8 +174,4 @@ h5:hover {
     font-size: 15px;
   }
 
-  .player-controls {
-    top: -10px;
-    left: 100px;
-  }
 }
