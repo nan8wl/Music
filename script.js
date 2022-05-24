@@ -18,7 +18,7 @@ let currentSong = 0;
 const songs = [
   {
     name: 'music-1',
-    displayName: 'DigitalTime',
+    displayName: 'Digital Time',
     artist: 'matrix',
   },
     {
@@ -28,7 +28,7 @@ const songs = [
   },
   {
     name: 'music-3',
-    displayName: 'CyberWars',
+    displayName: 'Cyber Wars',
     artist: 'matrix',
   },
   {
